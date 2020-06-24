@@ -29,7 +29,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 start={0}
                 end={confirmed.value}
                 duration={2.5}
-                seperator=","
+                separator=","
               />
             </Typography>
             <Typography color="textSecondary">
@@ -56,7 +56,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 start={0}
                 end={recovered.value}
                 duration={2.5}
-                seperator=","
+                separator=","
               />
             </Typography>
             <Typography color="textSecondary">
@@ -83,7 +83,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 start={0}
                 end={deaths.value}
                 duration={2.5}
-                seperator=","
+                separator=","
               />
             </Typography>
             <Typography color="textSecondary">
